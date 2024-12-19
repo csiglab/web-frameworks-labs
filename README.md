@@ -1,2 +1,7 @@
-# jakarta-ee-labs
-Jakarta Labs
+# Jakarta EE Labs
+
+> Jakarta Labs
+
+## Builg
+
+- `mvn clean package`

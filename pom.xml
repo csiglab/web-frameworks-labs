@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example.helloworld</groupId>
   <artifactId>hello-world</artifactId>
@@ -7,15 +7,83 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello-world Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+    <!-- Repositories Section -->
+  <repositories>
+      <repository>
+          <id>eclipse</id>
+          <url>https://repo.eclipse.org/content/repositories/releases/</url>
+      </repository>
+        <repository>
+          <id>central</id>
+          <url>https://repo.maven.apache.org/maven2/</url>
+      </repository>
+  </repositories>
+
   <dependencies>
+
+
+    <!-- Jakarta Faces API -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+        <groupId>jakarta.faces</groupId>
+        <artifactId>jakarta.faces-api</artifactId>
+        <version>4.0.0</version>
+        <scope>provided</scope>
     </dependency>
+
+    <!-- Jakarta Faces Implementation -->
+    <dependency>
+        <groupId>org.glassfish</groupId>
+        <artifactId>jakarta.faces</artifactId>
+        <version>4.0.0</version>
+    </dependency>
+<!-- 
+    <dependency>
+      <groupId>org.jboss.weld.servlet</groupId>
+      <artifactId>weld-servlet-shaded</artifactId>
+      <version>5.1.2.Final</version>
+    </dependency> -->
+    
+
+
+      <dependency>
+          <groupId>jakarta.faces</groupId>
+          <artifactId>jakarta.faces-api</artifactId>
+          <version>4.0.0</version> <!-- Use the version appropriate for your Jakarta EE 9.1 -->
+          <scope>provided</scope> <!-- Provided by Tomcat at runtime -->
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.tomcat</groupId>
+          <artifactId>tomcat-servlet-api</artifactId>
+          <version>11.0.0</version> <!-- The version compatible with Tomcat 11 -->
+          <scope>provided</scope>
+      </dependency>
+
+      <!-- Jakarta EL (Expression Language) API for JSF -->
+      <dependency>
+          <groupId>jakarta.el</groupId>
+          <artifactId>jakarta.el-api</artifactId>
+          <version>5.0.0</version> <!-- Compatible with Jakarta EE 9.1 -->
+          <scope>provided</scope>
+      </dependency>
+
+    <dependency>
+      <groupId>org.apache.openwebbeans</groupId>
+      <artifactId>openwebbeans-jsf</artifactId>
+      <version>4.0.2</version>
+  </dependency>
+
+  <dependency>
+      <groupId>org.apache.openwebbeans</groupId>
+      <artifactId>openwebbeans-el22</artifactId>
+      <version>4.0.2</version>
+  </dependency>
+
   </dependencies>
+
   <build>
     <finalName>hello-world</finalName>
   </build>
+
 </project>

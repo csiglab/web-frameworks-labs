@@ -4,4 +4,25 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+      <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- JSF Configuration -->
+  <servlet>
+      <servlet-name>FacesServlet</servlet-name>
+      <servlet-class>jakarta.faces.webapp.FacesServlet</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>FacesServlet</servlet-name>
+      <url-pattern>*.xhtml</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+      <listener-class>org.apache.webbeans.servlet.WebBeansConfigurationListener</listener-class>
+  </listener>
+
 </web-app>

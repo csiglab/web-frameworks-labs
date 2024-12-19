@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<head>
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+
+    <h:form>
+        <h:outputText value="Your random number is: " />
+        <h:outputText value="#{randomNumberBean.randomNumber}" />
+        <br /><br />
+        <h:commandButton value="Generate Random Number" action="#{randomNumberBean.generateRandomNumber}" />
+    </h:form>
+
+</body>
+</html>

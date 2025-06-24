@@ -24,7 +24,7 @@ Herramientas para construir interfaces de usuario dinámicas y experiencias web 
 * 🍃 [**Vue.js**](https://righteous-guardian-68f.notion.site/Vue-ab4d62078e6a42de9fe8d43a56f4303b?source=copy_link)
 * ⏭️ [**Next.js**](https://righteous-guardian-68f.notion.site/NextJS-d2bd131d5f5846839bfd5df5ae4ba703?source=copy_link)
 
-## Distributed Systems
+## 🕸️ Distributed Systems
 
 > ...
 

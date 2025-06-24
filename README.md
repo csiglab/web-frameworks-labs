@@ -4,7 +4,7 @@
 > 
 ## 🧱 Backend Frameworks
 
-Frameworks para construir APIs, servicios web y aplicaciones del lado del servidor:
+> Frameworks para construir APIs, servicios web y aplicaciones del lado del servidor:
 
 * 🟦 [**Jakarta EE**](https://www.notion.so/Java-EE-Jakarta-EE-161c0f5171ec80fbaedae02728d10c9a?source=copy_link)
 * 🌱 [**Spring Boot**](https://www.notion.so/Spring-Boot-6d62587cf82d476787d8faba8f292614?source=copy_link)
@@ -16,7 +16,7 @@ Frameworks para construir APIs, servicios web y aplicaciones del lado del servid
 
 ## 🎨 Frontend Frameworks
 
-Herramientas para construir interfaces de usuario dinámicas y experiencias web ricas:
+> Herramientas para construir interfaces de usuario dinámicas y experiencias web ricas:
 
 * 🔥 [**Ember.js**](#)
 * 🅰️ [**Angular**](https://righteous-guardian-68f.notion.site/Angular-2-0-24bf6b51369c4541abc4e82a0eb21096?source=copy_link)

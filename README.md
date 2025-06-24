@@ -24,6 +24,11 @@ Herramientas para construir interfaces de usuario dinámicas y experiencias web 
 * 🍃 [**Vue.js**](https://righteous-guardian-68f.notion.site/Vue-ab4d62078e6a42de9fe8d43a56f4303b?source=copy_link)
 * ⏭️ [**Next.js**](https://righteous-guardian-68f.notion.site/NextJS-d2bd131d5f5846839bfd5df5ae4ba703?source=copy_link)
 
+## Distributed Systems
+
+> ...
+
 ## 📚 Referencias
 
 * [🌍 Web Framework (Wikipedia)](https://en.wikipedia.org/wiki/Web_framework)
+* [A Design of a Distributed System Playground](https://windy-parent-de9.notion.site/A-Design-of-a-Distributed-System-Playground-162d38c7497c802882d6c55914c85450?pvs=4)
